@@ -1,6 +1,6 @@
 import os
 
-os.environ.setdefault("DATABASE_URL", "postgres://eniclgidiliabd:2759d4bd63ab89cca9df51bc97b38d745809aa01433b6614ade338883b00e237@ec2-54-155-61-133.eu-west-1.compute.amazonaws.com:5432/d7elej5e807nug")
+os.environ.setdefault("DATABASE_URL", "postgres://vefhkpeukuhtay:5c6d354105ce2e27a0a4f5b9cb96afae0ffecb08c531438fbfcf793a60bfb086@ec2-99-80-108-106.eu-west-1.compute.amazonaws.com:5432/detgnejas2rl52")
 os.environ.setdefault("EMAIL_HOST_PASS", "satmgsqfebhojous")
 os.environ.setdefault("EMAIL_HOST_USER", "dolans92@gmail.com")
 os.environ.setdefault("SECRET_KEY", "0h%=@qu#4vqn*@%rq0xi)3wz+!9g!&8q%62=463*@8iq8(qdx*")
