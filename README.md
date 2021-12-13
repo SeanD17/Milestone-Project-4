@@ -57,9 +57,27 @@ As a User:
 
 ![Signin Result](images/user_signin_result.png)
 
+"I want to be able to create an account on this site so that i can buy products"
+
+![Signup](images/user_signup.png)
+
+
+![Signup Confirmation Result](images/user_signup_result.png)
+
+
+![Signup Confirmation Email](images/user_signup_result_email.png)
+
+
+![Signup Confirmation Page](images/user_signup_result_page.png)
+
+
+![Signup Success](images/user_signup_result_success.png)
+
+
 "I want to be able to signout of the site"
 
 ![Signout](images/user_signout.png)
+
 
 ![Signout Result](images/user_signout_result.png)
 
@@ -67,11 +85,13 @@ As a User:
 
 ![Add Product to Bag](images/user_add_to_bag.png)
 
+
 ![Add Result](images/user_add_to_bag_result.png)
 
 "I want to be able to search for a product on the site"
 
 ![Search Product](images/user_product_search.png)
+
 
 ![Search Result](images/user_product_search_result.png)
 
@@ -107,11 +127,10 @@ As an Admin:
 I wanted to create a user friendly website that would have Create,Update,Read and Delete (CRUD) functionality as well as site that would accept payments.
 
 ## Scope:
-I created a database for the products and categories,see below schemas
+I created a database for the products and categories,see below schema
 
-![Category Schema](images/categories_db.png)
+![Schema](images/DevMuscles_db.png)
 
-![Product Schema](images/products_db.png)
 
 ## Technologies Used:
 [HTML](https://html.com/)
@@ -245,8 +264,6 @@ All text content in this website was written by me.
 
 ## Media:
 The photos used in this site were obtained from:
-
-Homepage background gotten<a href="https://www.google.com/search?hl=en-IE&tbs=simg:CAQSiQIJPpcIGl5sbUYa_1QELELCMpwgaOgo4CAQSFM0hvTL-PK84iw--HokslR36IeAeGhrv4gxneoTp6JfsCfEo0i-klwsaeYO-5uiihCAFMAQMCxCOrv4IGgoKCAgBEgRrIAfMDAsQne3BCRqdAQojCg9mcmVlIHdlaWdodCBiYXLapYj2AwwKCi9tLzBoOG00YmYKGgoHYmFyYmVsbNqliPYDCwoJL20vMDNfMTYzChkKB3dlaWdodHPapYj2AwoKCC9tLzBoenN2Ch8KC2FjdGl2ZSB0YW5r2qWI9gMMCgovbS8waGdudGd3Ch4KDHBvd2VybGlmdGluZ9qliPYDCgoIL20vMGg1dDQM&q=person+lifting+weights&tbm=isch&sa=X&ved=2ahUKEwj_n_yX86f0AhWUoFwKHUt7BvQQwg4oAHoECAEQMg&biw=1366&bih=587&dpr=1"> here</a>
 
 Xenios USA Fitness Dumbbells gotten<a href="https://www.xeniosusa.com/en/pair-of-fitness-dumbbell.html"> here</a>
 
