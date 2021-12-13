@@ -20,6 +20,8 @@ The project has a couple of pages:
 
 5:Page where the admin of the site can add or edit categories.
 
+6:Page where the admin of the site can post blogs for users to read.
+
 [Link to website](https://milestone-project-four-muscles.herokuapp.com/) here to see the website.
 
 ![Website](images/DevMuscles.png)
