@@ -61,23 +61,17 @@ As a User:
 
 ![Signup](images/user_signup.png)
 
-
 ![Signup Confirmation Result](images/user_signup_result.png)
-
 
 ![Signup Confirmation Email](images/user_signup_result_email.png)
 
-
 ![Signup Confirmation Page](images/user_signup_result_page.png)
 
-
 ![Signup Success](images/user_signup_result_success.png)
-
 
 "I want to be able to signout of the site"
 
 ![Signout](images/user_signout.png)
-
 
 ![Signout Result](images/user_signout_result.png)
 
@@ -85,43 +79,85 @@ As a User:
 
 ![Add Product to Bag](images/user_add_to_bag.png)
 
-
 ![Add Result](images/user_add_to_bag_result.png)
 
 "I want to be able to search for a product on the site"
 
 ![Search Product](images/user_product_search.png)
 
-
 ![Search Result](images/user_product_search_result.png)
 
 "I want to be able to go to my profile and update my delivery details and see any orders i have made"
+
+![Profile](images/user_profile_location.png)
 
 ![Profile](images/user_profile.png)
 
 "I want to see a product in more detail"
 
+![Product](images/user_product.png)
+
 ![Product Detail](images/user_product_detail.png)
 
 "I want to be able to edit my shopping bag before it goes to checkout"
 
-![Edit Shopping Bag](images/user_edit_bag.png)
+![Shopping Bag](images/user_edit_bag.png)
+
+![Edit Shopping Bag](images/user_edit_bag_result.png)
 
 "I want to look for products in certain areas instead of having to look at all of them"
 
 ![Product Categories](images/user_products_navigation.png)
 
+"I want to checkout a product"
+
+![Product Checkout](images/user_products_checkout.png)
+
+![Product Checkout Form](images/user_products_checkout_form.png)
+
+![Product Checkout Success](images/user_products_checkout_form_result.png)
+
+![Product Checkout Success Email](images/user_products_checkout_email.png)
+
+"I want to see an order i made on the website in detail"
+
+![User Order Location](images/user_profile_location.png)
+
+![User Orders](images/user_profile_order.png)
+
+![User Order Result](images/user_profile_order_result.png)
+
+"I want to be able to see blogs that were posted on this site"
+
+![User Blog Location](images/user_blog.png)
+
+![User Blogs](images/user_blog_result.png)
+
 As an Admin:
 
 "I want to be able to delete products from the site"
 
-![Delete Product](images/admin_delete_products.png)
+![Delete Product Location](images/admin_delete_products.png)
 
 ![Delete Product Message](images/admin_delete_product_message.png)
 
 "I want to be able to edit products on the site"
 
-![Edit Products](images/admin_edit_products.png)
+![Edit Product Location](images/admin_edit_products.png)
+
+![Edit Product](images/admin_edit_products_result.png)
+
+"I want to be able to add products on the site"
+
+![Add Product Location](images/admin_add_product_location.png)
+
+![Add Product](images/admin_add_product_result.png)
+
+"I want to be able to add blog posts to the site"
+
+![Blog Location ](images/admin_blog_location.png)
+
+![Add Blog](images/admin_blog_result.png)
 
 ## Strategy:
 I wanted to create a user friendly website that would have Create,Update,Read and Delete (CRUD) functionality as well as site that would accept payments.
@@ -130,7 +166,6 @@ I wanted to create a user friendly website that would have Create,Update,Read an
 I created a database for the products and categories,see below schema
 
 ![Schema](images/DevMuscles_db.png)
-
 
 ## Technologies Used:
 [HTML](https://html.com/)
@@ -178,7 +213,7 @@ It was also tested on 3 web browsers: Google Chrome, Mozilla Firefox and Microso
 
 <p align="center"><strong> HTML Validation</strong></p>
 
-HTML - [W3C](https://validator.w3.org/) - Markup Validation.
+HTML - [W3C](https:/ /validator.w3.org/) - Markup Validation.
 
 ![Homepage](images/html_validation.png)
 
@@ -205,6 +240,8 @@ HTML - [W3C](https://validator.w3.org/) - Markup Validation.
 ![Signout](images/html_validation_signout.png)
 
 ![Workout](images/html_validation_workout.png)
+
+![Blog](images/html_validation_blog.png)
 
 <p align="center"><strong> CSS Validation</strong></p>
 
