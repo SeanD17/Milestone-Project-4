@@ -186,12 +186,12 @@ Used to handle credit card payments on the site
 [Heroku](https://id.heroku.com/login)
 Used to host the site.
 
+[AWS](https://aws.amazon.com/)
+Used for the collecting and storing of staticfiles.
+
 ## Libraries:
 [Django](https://www.djangoproject.com/)
 Used for the main development of the site.
-
-[WhiteNoise](http://whitenoise.evans.io/en/stable/#)
-Used for the collecting and storing of staticfiles.
 
 ## Version Control:
 [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
