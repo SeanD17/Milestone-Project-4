@@ -185,6 +185,31 @@ If the admin has logged in they would now have the option of deleting/editing pr
 ## Surface:
 I used text color of black in a white background to make it stand out.
 
+## Features:
+
+<p align="center"><strong>Existing Features:</strong>
+
+<strong>Feature 1:</strong>
+The navigation bar on the top will stay to the screen when the user scrolls down the page when viewing on a tablet or phone for easy navigation as well as link back to the index page.
+
+<strong>Feature 2:</strong>
+The ability to view and filter products by category,name, price etc.
+
+<strong>Feature 3:</strong>
+A search bar that allows the user to type in a product and return results.
+
+<strong>Feature 4:</strong>
+Using Stripe payments a user can checkout a product they want to buy using a test card and an email is then sent to them containing their order details.
+
+<strong>Feature 5:</strong>
+Users can register an account to the website to update and save thier delivery information as well as see orders they made.
+
+<strong>Feature 6:</strong>
+Users can view blog posts that the admin of the site can create.
+
+## Features Left to Implement:
+I would like to be able to add customer review form and then display the ones with the best ratings on the homepage.
+
 ## Technologies Used:
 [HTML](https://html.com/)
 Used to create the structure of the web site.
@@ -229,6 +254,209 @@ The project was tested on a smartphone, a Desktop computer and a Samsung Tablet.
 
 It was also tested on 3 web browsers: Google Chrome, Mozilla Firefox and Microsoft Edge.
 
+The search our site search bar is expected to come up with product suggestions, however it will also bring up results that match the word been searched for, for example typing lk in the search bar you would expect there would be no products to show with those words, however the suggestion also looks at the products information, in this case there was a result because it found the word 'bulk' that is similar to the word 'lk' i searched for.
+
+All three displayed the exact same website layout without any noticeable changes.
+
+Links on the site when clicked on will open to the same tab.
+
+The website has been designed to accommodate the screen sizes of smartphones and tablets. 
+
+Once the Submit button is clicked, a message is displayed on the top right corner of the navigation pane depending on the action of the Submit button(Signin, Signup, Delete Product, Add Product, Checkout etc).
+
+![Delete Product Message](images/admin_delete_product_message.png)
+
+![Signout Result](images/user_signout_result.png)
+
+![Signin Result](images/user_signin_result.png)
+
+![Signup Success](images/user_signup_result_success.png)
+
+<p align="center"><strong>User Stories Testing</strong></p>
+As a User/Admin:
+
+"I want to see all the products on the site"
+
+![Products](images/all_products.png)
+
+Expected-.  
+
+Result-.
+
+As a User:
+
+"I want to be able to signin into the site using an account i created"
+
+![Signin](images/user_signin.png)
+
+![Signin Result](images/user_signin_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to create an account on this site so that i can buy products"
+
+![Signup](images/user_signup.png)
+
+![Signup Confirmation Result](images/user_signup_result.png)
+
+![Signup Confirmation Email](images/user_signup_result_email.png)
+
+![Signup Confirmation Page](images/user_signup_result_page.png)
+
+![Signup Success](images/user_signup_result_success.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to signout of the site"
+
+![Signout](images/user_signout.png)
+
+![Signout Result](images/user_signout_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to add a product i would like to buy on the site to a shopping bag"
+
+![Add Product to Bag](images/user_add_to_bag.png)
+
+![Add Result](images/user_add_to_bag_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to search for a product on the site"
+
+![Search Product](images/user_product_search.png)
+
+![Search Result](images/user_product_search_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to go to my profile and update my delivery details and see any orders i have made"
+
+![Profile](images/user_profile_location.png)
+
+![Profile](images/user_profile.png)
+
+Expected-.  
+
+Result-.
+
+"I want to see a product in more detail"
+
+![Product](images/user_product.png)
+
+![Product Detail](images/user_product_detail.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to edit my shopping bag before it goes to checkout"
+
+![Shopping Bag](images/user_edit_bag.png)
+
+![Edit Shopping Bag](images/user_edit_bag_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to look for products in certain areas instead of having to look at all of them"
+
+![Product Categories](images/user_products_navigation.png)
+
+Expected-.  
+
+Result-.
+
+"I want to checkout a product"
+
+![Product Checkout](images/user_products_checkout.png)
+
+![Product Checkout Form](images/user_products_checkout_form.png)
+
+![Product Checkout Success](images/user_products_checkout_form_result.png)
+
+![Product Checkout Success Email](images/user_products_checkout_email.png)
+
+Expected-.  
+
+Result-.
+
+"I want to see an order i made on the website in detail"
+
+![User Order Location](images/user_profile_location.png)
+
+![User Orders](images/user_profile_order.png)
+
+![User Order Result](images/user_profile_order_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to see blogs that were posted on this site"
+
+![User Blog Location](images/user_blog.png)
+
+![User Blogs](images/user_blog_result.png)
+
+Expected-.  
+
+Result-.
+
+As an Admin:
+
+"I want to be able to delete products from the site"
+
+![Delete Product Location](images/admin_delete_products.png)
+
+![Delete Product Message](images/admin_delete_product_message.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to edit products on the site"
+
+![Edit Product Location](images/admin_edit_products.png)
+
+![Edit Product](images/admin_edit_products_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to add products on the site"
+
+![Add Product Location](images/admin_add_product_location.png)
+
+![Add Product](images/admin_add_product_result.png)
+
+Expected-.  
+
+Result-.
+
+"I want to be able to add blog posts to the site"
+
+![Blog Location ](images/admin_blog_location.png)
+
+![Add Blog](images/admin_blog_result.png)
+
+Expected-.  
+
+Result-.
+
 <p align="center"><strong> HTML Validation</strong></p>
 
 HTML - [W3C](https:/ /validator.w3.org/) - Markup Validation.
@@ -266,6 +494,8 @@ HTML - [W3C](https:/ /validator.w3.org/) - Markup Validation.
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation.
 
 [Validation Result](images/css_validation.png)
+
+<p align="center"><strong>Project Bugs and Solutions</strong></p>
 
 ## Deployment:
 I did the following to deploy my site:
