@@ -33,8 +33,6 @@ The project has a couple of pages:
 > - [Scope](#scope)
 > - [Structure](#structure)
 > - [Surface](#surface)
-> - [Icons](#icons)
-> - [Skeleton](#wireframes)
 > - [Features](#features)
 > - [Features Left to Implement](#features-left-to-implement)
 > - [Technologies Used](#technologies-used)
@@ -169,7 +167,7 @@ As an Admin:
 I wanted to create a user friendly website that would have Create,Update,Read and Delete (CRUD) functionality as well as site that would accept payments.
 
 ## Scope:
-I created a database for the products and categories,see below schema
+I created a database for the products and categories,see below schema.
 
 ![Schema](images/DevMuscles_db.png)
 
@@ -178,21 +176,14 @@ I wanted users to see all the products that are on the site to buy.
 
 I would then direct them to the product that they want to buy.
 
-The user would then be able to checkout the product but if they want to save the order and their delivery details they would need to register on the site
+The user would then be able to checkout the product but if they want to save the order and their delivery details they would need to register on the site.
 
 After the user has logged in they would now be able to see their orders and their delivery information.
 
-If the admin has logged in they would now have the option of deleting/editing books,and adding/editing categories.
-
-I also provided my profile links to GitHub and LinkedIn.
+If the admin has logged in they would now have the option of deleting/editing products,and adding blog posts(only through Django admin).
 
 ## Surface:
-I used various text colors to make it stand out against the background.
-
-The orange background footer and red background header was chosen to stand out on the site.
-
-## Icons:
-I used Font Awesome for the social media icons of GitHub and LinkedIn,as well as for various icons seen throughout the site.
+I used text color of black in a white background to make it stand out.
 
 ## Technologies Used:
 [HTML](https://html.com/)
@@ -326,6 +317,12 @@ Once the above steps are complete you can try run the application using python3 
 ## Content:
 All text content in this website was written by me.
 
+Fitness Update blog post text gotten<a href="https://www.nbcnews.com/better/lifestyle/30-day-strength-training-routine-no-equipment-required-ncna988936"> here</a>
+
+Meal-Plan blog post text gotten<a href="https://healthyrecipesforweghtloss.blogspot.com/2019/08/best-7-day-diet-plan-for-weight-loss.html"> here</a>
+
+Warrior Workout blog post text gotten<a href="https://ukoutdoorfitness.com/bootcamp/total-warrior-workout-plan"> here</a>
+
 ## Media:
 The photos used in this site were obtained from:
 
@@ -356,3 +353,5 @@ Lean Muscle diet plan gotten<a href="https://healthyrecipesforweghtloss.blogspot
   
 ## Acknowledgments:
 I received inspiration from an Bootstrap mini project that was taught to us as part of our course.
+
+Thanks to the tutors at Code Institute with helping me on the various issues i encountered while doing this project.
