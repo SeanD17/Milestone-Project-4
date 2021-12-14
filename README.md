@@ -31,6 +31,12 @@ The project has a couple of pages:
 > - [User Stories](#user-stories)
 > - [Strategy](#strategy)
 > - [Scope](#scope)
+> - [Structure](#structure)
+> - [Surface](#surface)
+> - [Icons](#icons)
+> - [Skeleton](#wireframes)
+> - [Features](#features)
+> - [Features Left to Implement](#features-left-to-implement)
 > - [Technologies Used](#technologies-used)
 > - [Libraries](#libraries)
 > - [Version Control](#version-control)
@@ -166,6 +172,27 @@ I wanted to create a user friendly website that would have Create,Update,Read an
 I created a database for the products and categories,see below schema
 
 ![Schema](images/DevMuscles_db.png)
+
+## Structure:
+I wanted users to see all the products that are on the site to buy.
+
+I would then direct them to the product that they want to buy.
+
+The user would then be able to checkout the product but if they want to save the order and their delivery details they would need to register on the site
+
+After the user has logged in they would now be able to see their orders and their delivery information.
+
+If the admin has logged in they would now have the option of deleting/editing books,and adding/editing categories.
+
+I also provided my profile links to GitHub and LinkedIn.
+
+## Surface:
+I used various text colors to make it stand out against the background.
+
+The orange background footer and red background header was chosen to stand out on the site.
+
+## Icons:
+I used Font Awesome for the social media icons of GitHub and LinkedIn,as well as for various icons seen throughout the site.
 
 ## Technologies Used:
 [HTML](https://html.com/)
