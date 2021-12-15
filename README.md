@@ -254,7 +254,7 @@ The project was tested on a smartphone, a Desktop computer and a Samsung Tablet.
 
 It was also tested on 3 web browsers: Google Chrome, Mozilla Firefox and Microsoft Edge.
 
-The search our site search bar is expected to come up with product suggestions, however it will also bring up results that match the word been searched for, for example typing lk in the search bar you would expect there would be no products to show with those words, however the suggestion also looks at the products information, in this case there was a result because it found the word 'bulk' that is similar to the word 'lk' i searched for.
+The search our site search bar is expected to come up with product suggestions, however it will also bring up results that match the word been searched for, for example typing 'lk' in the search bar you would expect there would be no products to show with those words, however the suggestion also looks at the products information, in this case there was a result because it found the word 'bulk' that is similar to the word 'lk' i searched for.
 
 All three displayed the exact same website layout without any noticeable changes.
 
@@ -279,9 +279,9 @@ As a User/Admin:
 
 ![Products](images/all_products.png)
 
-Expected-.  
+Expected-The user can see all the products either by selecting one of the options on the navigation pane or by clicking the Shop Now button on the site homepage.
 
-Result-.
+Result-The user is able to see all the products on the site.
 
 As a User:
 
@@ -291,9 +291,11 @@ As a User:
 
 ![Signin Result](images/user_signin_result.png)
 
-Expected-.  
+Expected-The user would first go to the My Account dropdown in the navigation pane and then click on the Signin link.
+Then they would need to login using their username or email and their password.
+If successful, a message would appear on the top rightr corner of the screen saying that they have now logged in.
 
-Result-.
+Result-The user is now able to login to the website.
 
 "I want to be able to create an account on this site so that i can buy products"
 
@@ -307,9 +309,13 @@ Result-.
 
 ![Signup Success](images/user_signup_result_success.png)
 
-Expected-.  
+Expected-The user would first go to the My Account dropdown in the navigation pane and then click on the Register link.
+Then they would need to fill in the form with their email, username and password and then click the Signup button.
+An email is then sent to them asking them to click on the link inside the email to confirm the account they just created.
+Once this is done, a message would appear on the top rightr corner of the screen saying that they have now successfully signed up.
+They would then need to go to the Signin page and login user their newly created details. 
 
-Result-.
+Result-The user has successfully registered and signed in to the website.
 
 "I want to be able to signout of the site"
 
@@ -317,9 +323,11 @@ Result-.
 
 ![Signout Result](images/user_signout_result.png)
 
-Expected-.  
+Expected-The user would first go to the My Account dropdown in the navigation pane and then click on the Signout link.
+Then they would need to click on the Signout button.
+After this a message would appear saying they have now signed out and they will be brought back to the homepage.  
 
-Result-.
+Result-The User is now able to signout of the site.
 
 "I want to be able to add a product i would like to buy on the site to a shopping bag"
 
@@ -327,9 +335,10 @@ Result-.
 
 ![Add Result](images/user_add_to_bag_result.png)
 
-Expected-.  
+Expected-The user would go to the product that they want to buy by clicking anywhere underneath the products image to see the product in more detail.
+On the next page they would then click on the Add to Bag button.  
 
-Result-.
+Result-The user is able to add a product to the shopping bag.
 
 "I want to be able to search for a product on the site"
 
@@ -367,17 +376,18 @@ Result-.
 
 ![Edit Shopping Bag](images/user_edit_bag_result.png)
 
-Expected-.  
+Expected-The User would go to the Shopping bag icon and click on the item in the bag.
+They are then sent to the page where they can remove the product and add/remove quantities.
 
-Result-.
+Result-The User is able to edit their shopping bag before it goes to checkout.
 
 "I want to look for products in certain areas instead of having to look at all of them"
 
 ![Product Categories](images/user_products_navigation.png)
 
-Expected-.  
+Expected-The User would go to the navvigation pane that is located on the top of the site and click on one of the dropdown to be brought to the products with a certain criteria.  
 
-Result-.
+Result-The User is able to look for products in certain areas.
 
 "I want to checkout a product"
 
@@ -389,9 +399,11 @@ Result-.
 
 ![Product Checkout Success Email](images/user_products_checkout_email.png)
 
-Expected-.  
+Expected-The User would go to the Shopping bag icon and click on the Checkout button.
+They are then sent to a page where they would fill in their details like name, email, delivery address, and credit card details.
+At this point if the user hasnt signed up to the site they are asked to do this as while they can order a product without an account, their order details and delivery address wont be saved.  
 
-Result-.
+Result-The User is able to checkout a product.
 
 "I want to see an order i made on the website in detail"
 
@@ -401,9 +413,10 @@ Result-.
 
 ![User Order Result](images/user_profile_order_result.png)
 
-Expected-.  
+Expected-The user would first go to the My Account dropdown in the navigation pane and then click on the Profile link.
+On the right corner of the page they would see the orders they have made, they would then click on the order number to view the order in more details.  
 
-Result-.
+Result-The user is now able to see orders they made in detail.
 
 "I want to be able to see blogs that were posted on this site"
 
@@ -411,9 +424,10 @@ Result-.
 
 ![User Blogs](images/user_blog_result.png)
 
-Expected-.  
+Expected-The user would go to the homepage and would then click on the Blog posts button.
+They are then sent to the Blog posts page  
 
-Result-.
+Result-The user is now able to see blogs on the site.
 
 As an Admin:
 
@@ -423,9 +437,10 @@ As an Admin:
 
 ![Delete Product Message](images/admin_delete_product_message.png)
 
-Expected-.  
+Expected-The admin would go to the products page and under the products image there would be an option to delete the product.
+After doing this, a message would appear saying that the product has now been deleted. 
 
-Result-.
+Result-The admin is now able to delete products on the site.
 
 "I want to be able to edit products on the site"
 
@@ -433,9 +448,10 @@ Result-.
 
 ![Edit Product](images/admin_edit_products_result.png)
 
-Expected-.  
+Expected-The admin would go to the products page and under the products image there would be an option to edit the product.
+The admin is then brought to a page where they can update the products existing details.  
 
-Result-.
+Result-The admin is now able to edit products on the site.
 
 "I want to be able to add products on the site"
 
@@ -443,9 +459,13 @@ Result-.
 
 ![Add Product](images/admin_add_product_result.png)
 
-Expected-.  
+Expected-The admin would first go to the My Account dropdown in the navigation pane and then click on the Product Management link.
 
-Result-.
+Then they would need to fill in the form with all the product details.
+
+The Product would then be displayed in the category it was set to. 
+
+Result-Admin is now able to add products to the site.
 
 "I want to be able to add blog posts to the site"
 
@@ -453,9 +473,11 @@ Result-.
 
 ![Add Blog](images/admin_blog_result.png)
 
-Expected-.  
+Expected-The admin would need to go to the Django Admin site and under the Posts section, they would then click Add to create a new blog post.
 
-Result-.
+They would need to make sure that the blog status is set to Publish or else it would not appear on the site.  
+
+Result-The Admin is now able to add blog posts to the site.
 
 <p align="center"><strong> HTML Validation</strong></p>
 
@@ -496,6 +518,19 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation.
 [Validation Result](images/css_validation.png)
 
 <p align="center"><strong>Project Bugs and Solutions</strong></p>
+When i went to the Checkout page i would get an error saying "Attribute Error: Django-countries has no attribute 'CountryField'".
+
+I tried to reinstall Django-Countries to the latest version but the error persisted.
+
+I was eventually able to fix this by running pip install django-countries --upgrade and then i was able to go to the Checkout page.
+
+Another issue i had was because i hosted staticfiles on AWS, I would only be able to see images and the correct formatting on Mozilla Firefox as that is where I developed my project on, in Google Chrome and Microsoft Edge no images were displayed and no CSS rules were applied.
+
+I figured out the issue was that i had the AWS bucket named with the heroku.com at the end of its name which was causing problems to the site.
+
+I had to recreate a new bucket and had a title that didnt have heroku.com at the end.
+
+After doing this and uploading the media files to AWS, the images and CSS rules were displayed correctly on Mozilla Firefox,Google Chrome and Microsoft Edge
 
 ## Deployment:
 I did the following to deploy my site:
